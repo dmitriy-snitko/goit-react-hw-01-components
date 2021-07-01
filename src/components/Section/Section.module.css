@@ -1,0 +1,11 @@
+.statistics {
+  width: 350px;
+  text-align: center;
+  margin-bottom: 25px;
+
+  border: 1px solid rgba(34, 60, 80, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+
+  box-shadow: 2px 2px 4px 0px rgba(34, 60, 80, 0.2);
+}
