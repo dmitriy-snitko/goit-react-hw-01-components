@@ -1,0 +1,44 @@
+.item {
+  display: grid;
+  grid-template-columns: 50px 80px 1fr;
+  align-items: center;
+
+  height: 100px;
+  padding: 10px 0;
+
+  background-color: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(34, 60, 80, 0.2);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.isOffline {
+  background-color: red;
+}
+
+.avatar {
+  width: 100%;
+
+  border-radius: 5px;
+}
+
+.name {
+  padding: 15px;
+
+  font-size: 24px;
+  font-weight: 500;
+}
